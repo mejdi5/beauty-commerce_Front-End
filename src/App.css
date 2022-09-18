@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.back {
+  float: left;
+  cursor: pointer;
+}
+
+

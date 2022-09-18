@@ -1,0 +1,125 @@
+.navbar-container {
+    height: 60px;
+    background-color: rgb(33, 135, 160);
+    border-radius: 10px;
+}
+
+.navbar-wrapper {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-logo:hover {
+    color:black
+}
+
+.navbar-center {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-center-item {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1vw
+}
+
+.navbar-user-image {
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+}
+
+.navbar-center-item:hover {
+    color:black
+}
+
+.navbar-right {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.navbar-right-item {
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: 25px;
+    font-weight: bold;
+    max-height: 45px;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.navbar-right-item:hover{
+    color:black
+}
+
+.signin {
+    background-color: rgb(77, 134, 74);
+}
+
+.signup {
+    background-color: purple;
+}
+
+
+.shoppingCartIcon{
+    color: black;
+}
+
+.shoppingCartIcon:hover{
+    color: red;
+}
+
+@media (max-width: 800px ) {
+    .navbar-container {
+        height: 60px;
+    }
+
+    .navbar-wrapper {
+        padding: 10px 0px
+    }
+
+    .navbar-right {
+        flex: 2;
+        justify-content: center
+    }
+
+    .navbar-right-item {
+        font-size: 10px;
+        margin-left: 10px;
+    }
+
+    .navbar-search-input {
+        width: 50px
+    }
+
+    .navbar-language {
+        display: "none"
+    }
+}
+

@@ -1,0 +1,50 @@
+.categories-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:rgb(222, 234, 230);
+}
+
+.item-container {
+    flex: 1;
+    margin: 5px;
+    margin-top: 10px;
+    width: 100%;
+    min-width: 250px;
+    max-width: 400px;
+    height: 20vh;
+    position: relative;
+}
+
+.item-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-title {
+    color:white;
+    margin-bottom: 20px;
+}
+
+.item-button {
+    border:none;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+

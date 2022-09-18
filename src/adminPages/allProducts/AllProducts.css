@@ -1,0 +1,176 @@
+.allProducts{
+    display: flex;
+}
+
+.allProducts-container {
+    flex: 5
+}
+
+.add-product-msg {
+    background-color: #fff;
+    color: blue
+}
+
+.edit-product-msg{
+    background-color: #fff;
+    color: green
+}
+
+.product-delete-msg {
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-productImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.product-action {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-edit{
+    color: green;
+    cursor: pointer;
+}
+
+.product-delete{
+    color: red;
+    cursor: pointer;
+}
+
+.add-edit-product {
+    flex: 4;
+    display: flex;
+}
+
+.edit-product-container {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 5;
+    margin: 5vh 5vw;
+    border-radius: 15px;
+    background-color: rgb(141, 127, 130);
+}
+
+.add-product-container {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 5;
+    margin: 5vh 5vw;
+    border-radius: 15px;
+    background-color: rgb(132, 193, 141);
+}
+
+.add-edit-product-form-group {
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-edit-product-label {
+    width: 10vw;
+    font-size: larger;
+    font-weight: bold;
+    color: azure;
+}
+
+.add-edit-product-input {
+    width: 50vw;
+}
+
+.add-edit-product-category {
+    width: 12.5vw;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 2vw;
+}
+
+.add-edit-product-category-input {
+    border: none;
+}
+
+.add-edit-product-category-icon {
+    cursor: pointer;
+    border-left: 1px solid black;
+}
+
+.add-edit-category-display {
+    display: flex;
+    flex-wrap: wrap;
+    width: 37.5vw
+}
+
+.category-display {
+    width: fit-content;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin-right: 10px
+}
+
+.category-text-display {
+    color: rgb(22, 20, 20);
+    font-size: 15px;
+}
+
+.delete-product-category-icon {
+    cursor: pointer;
+}
+
+.add-edit-product-form-group-price {
+    margin-left: 6.6vw;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-self: flex-start;
+}
+
+.add-edit-product-input-price {
+    width: 5vw
+}
+
+.product-in-stock {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.in-stock-icon {
+    color: green;
+}
+
+.out-of-stock-icon {
+    color: red
+}
+
+.no-products {
+    height: 100vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

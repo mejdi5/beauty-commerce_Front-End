@@ -1,0 +1,60 @@
+.order-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-wrapper {
+    width: 80%;
+    padding: 20px
+}
+
+.order-item-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid lightblue;
+    padding-bottom: 20px;
+}
+
+.order-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.order-header {
+    display: flex;
+    justify-content: center;
+    margin: 10px 5px ;
+}
+
+.order-item-title {
+    font-size:larger;
+}
+
+.order-item-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-item-image {
+    width: 80px;
+    object-fit: cover;   
+    margin-left: 47%; 
+}
+
+.order-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.order-paid {
+    color: green
+}

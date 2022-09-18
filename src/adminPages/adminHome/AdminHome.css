@@ -1,0 +1,22 @@
+.admin-home{
+    flex: 4;
+    display: flex;
+}
+
+.admin-home-container {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.admin-homeSales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-homeWidgets{
+    display: flex;
+    margin: 20px;
+}

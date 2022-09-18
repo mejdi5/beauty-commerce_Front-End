@@ -1,0 +1,126 @@
+.users{
+    flex: 4;
+    display: flex;
+}
+
+.users-container {
+    flex: 5
+}
+
+.add-user-msg {
+    background-color: #fff;
+    color: blue
+}
+
+
+.edit-user-msg{
+    background-color: #fff;
+    color: green
+}
+
+.user-delete-msg {
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userListImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.user-action {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-new{
+    color: rgb(0, 4, 128);
+    cursor: pointer;
+}
+
+.user-edit{
+    color: green;
+    cursor: pointer;
+}
+
+.user-delete{
+    color: red;
+    cursor: pointer;
+}
+
+.user-edit:hover, .user-delete:hover, .user-new:hover {
+    background-color: rgb(156, 106, 106);
+}
+
+.add-edit-user {
+    flex: 4;
+    display: flex;
+}
+
+.add-user-container {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 5;
+    margin: 5vh 5vw;
+    border-radius: 15px;
+    background-color: rgb(109, 109, 162);
+}
+
+.edit-user-container {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 5;
+    margin: 5vh 5vw;
+    border-radius: 15px;
+    background-color: rgb(132, 193, 141);
+}
+
+.add-edit-user-form-group {
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-edit-user-label {
+    width: 10vw;
+    font-size: larger;
+    font-weight: bold;
+    color: azure;
+}
+
+.add-edit-user-input {
+    width: 50vw;
+}
+
+.no-users {
+    height: 100vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-activity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-activity-icon {
+    font-size: 2px;
+    margin-right: 10px;
+}
+

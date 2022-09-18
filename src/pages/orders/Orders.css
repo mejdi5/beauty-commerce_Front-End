@@ -1,0 +1,27 @@
+.order-title {
+    margin-bottom: 5%;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-group {
+    width: 90%;
+    margin: 1%
+}
+
+.list-group-item {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(158, 192, 193);
+}
+
+.list-group-item:hover {
+    background-color: rgb(218, 215, 215);
+}
